@@ -11,6 +11,9 @@ module.exports = class AfterBrunch
     for command in @commands
       options = {}
       if command != null and typeof command == 'object'
+        if command.usePublicPath == true
+          options.cwd = @config.paths.public
+
         command = command.command
 
       exec command, options, (error, stdout, stderr) ->
