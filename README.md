@@ -27,6 +27,9 @@ Parameters available:
 * disableOnWatch: Boolean - Disable the commands on grunt watching mode
 
 
+Old configuration
+--------
+
 The old configuration is still available: 
 
 ```coffeescript
