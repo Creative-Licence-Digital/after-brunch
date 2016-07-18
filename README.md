@@ -24,7 +24,7 @@ exports.config =
 
 Parameters available:
 --------
-* disableOnWatch: Boolean - Disable the commands on grunt watching mode
+* disableOnWatch: Boolean - Disable the commands on brunch watching mode
 
 
 Old configuration
